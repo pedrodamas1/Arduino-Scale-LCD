@@ -14,15 +14,15 @@ Below is the wiring for this project:
 
 ![](Images/Fritzing_sketch_bb.jpg)
 
-Arduino Pin 2 -> HX711 Dout
-Arduino Pin 3 -> HX711 Ck
-Arduino 5V    -> HX711 Vcc
-Arduino Gnd   -> HX711 Gnd
+Arduino Pin 2 -> HX711 Dout  
+Arduino Pin 3 -> HX711 Ck  
+Arduino 5V    -> HX711 Vcc  
+Arduino Gnd   -> HX711 Gnd  
 
-HX711 A+ -> Load Cell Red
-HX711 A- -> Load Cell Black
-HX711 E+ -> Load Cell White
-HX711 E- -> Load Cell Green
+HX711 A+ -> Load Cell Red  
+HX711 A- -> Load Cell Black  
+HX711 E+ -> Load Cell White  
+HX711 E- -> Load Cell Green  
 
 
 
