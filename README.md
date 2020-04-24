@@ -24,6 +24,14 @@ HX711 A- -> Load Cell Black
 HX711 E+ -> Load Cell White  
 HX711 E- -> Load Cell Green  
 
+For this project you need two libraries:
+  - <LiquidCrystal.h> https://github.com/arduino-libraries/LiquidCrystal
+  - <HX711.h> https://github.com/bogde/HX711
 
+If you want to learn more about these two modules, I recommend the following tutorials:
+  - LCD Keypad Shield: https://create.arduino.cc/projecthub/electropeak/using-1602-lcd-keypad-shield-w-arduino-w-examples-e02d95
+  - HX711/Load Cell: https://www.instructables.com/id/Arduino-Scale-With-5kg-Load-Cell-and-HX711-Amplifi/
+  
+Lastly, you need to calibrate your load cell. To do this, you must have 3 or 4 objects of known, but different, weights. Then, you place each object on the load cell and record the measure raw value. You put that data on excel and calculate a linear trend line. 
 
-Calibration, libraries, tutorials
+Calibration, tutorials
