@@ -14,7 +14,7 @@ Below is the wiring for this project:
 
 ![](Images/Fritzing_sketch_bb.jpg)
 
-Arduino Pin 2 -> HX711 Dout  
+Arduino Pin 2 \t -> HX711 Dout  
 Arduino Pin 3 -> HX711 Ck  
 Arduino 5V    -> HX711 Vcc  
 Arduino Gnd   -> HX711 Gnd  
