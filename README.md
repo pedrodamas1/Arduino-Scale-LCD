@@ -14,3 +14,4 @@ Below is the wiring for this project:
 
 ![](Images/Fritzing_sketch_bb.jpg)
 
+Pin 2 -> 
