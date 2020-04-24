@@ -1,7 +1,7 @@
 # Arduino-Scale-LCD
 This is an easy arduino scale, with a display using the LCD keypad shield.
 
-My build is the simple setup you can see below. This is an Arduino Scale, with a 1kg range and is accurate to ±0.01 grams.
+My build is the simple setup you can see below. This is an Arduino Scale, with a 1kg range and is accurate to ±0.01 grams. Using the buttons on the keypad, a tare option is available.
 
 ![](Images/Demo_photo.jpg)
 
@@ -14,4 +14,16 @@ Below is the wiring for this project:
 
 ![](Images/Fritzing_sketch_bb.jpg)
 
-Pin 2 -> 
+Arduino Pin 2 -> HX711 Dout
+Arduino Pin 3 -> HX711 Ck
+Arduino 5V    -> HX711 Vcc
+Arduino Gnd   -> HX711 Gnd
+
+HX711 A+ -> Load Cell Red
+HX711 A- -> Load Cell Black
+HX711 E+ -> Load Cell White
+HX711 E- -> Load Cell Green
+
+
+
+Calibration, libraries, tutorials
