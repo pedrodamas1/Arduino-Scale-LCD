@@ -11,7 +11,6 @@ void initialize() {
   lcd.print("Peso:");
 
   // HX711 stuff:
-  scale.begin(LOADCELL_DOUT_PIN, LOADCELL_SCK_PIN);
   scale.set_scale(LOADCELL_DIVIDER);
   scale.set_offset(LOADCELL_OFFSET);
 

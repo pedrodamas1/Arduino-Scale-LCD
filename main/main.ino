@@ -17,7 +17,7 @@ const long LOADCELL_DIVIDER = 1870.f;
 
 // LCD pins order: RS EN D4 D5 D6 D7 BL
 LiquidCrystal lcd(8,  9,  4,  5,  6,  10);
-HX711 scale;
+HX711 scale(LOADCELL_DOUT_PIN, LOADCELL_SCK_PIN);
 
 void setup() {
   initialize();
